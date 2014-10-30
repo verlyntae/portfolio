@@ -29,7 +29,24 @@ h2, h3, h4, h5, h6 { color:#000000; }
 
 h1 {
 		margin-left: 2em;
+		margin-right: 2em;
 }
+
+h2 {
+		margin-left: 2em;
+		margin-right: 2em;
+		font-size: 2em;
+		text-align: center;
+		padding-bottom: .5em;
+}
+
+section{
+		margin-left: 15em;
+		margin-right: 15em;
+		text-align: justify;
+		font-size: 1.3em
+}
+	
 
 nav {
 		margin: 0 auto;
@@ -91,15 +108,15 @@ a:hover {
 }	 
   
 a:visited {
- 		text-decoration:  -moz-none;
-  		font-weight:      bold;
-  		color:            #FF6600;
+ 		text-decoration: -moz-none;
+  		font-weight: bold;
+  		color: #FF6600;
 }
   	
 a:active {
 	
-  		text-decoration:  -moz-none;
-  		font-weight:      bold;
+  		text-decoration: -moz-none;
+  		font-weight: bold;
   		color: #FF0000;
 } 
 
