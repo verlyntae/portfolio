@@ -4,29 +4,39 @@
 
 header {
 		width: 100%;
-		font-size: 1.5em;
-		margin-left: 2em
+		font-size: 1.3em;
+		margin-left: 2em;
+		margin-bottom: 2em;
 }
 
-body {	margin: 0 auto;
+body {	
+		margin: 0 auto;
 		width: 100%;
 		background-color: #C0C0C0;
 		font-family: Futura, sans-serif;
     	font-size: 1.3em;
-		margin-left: 2em;
-		margin-right: 2em;
+		overflow-x: hidden;
+		overflow-y: scroll;
 }
 
 header img {
-		max-width: 20%;
+		max-width: 18%;
 		margin-top: 3em;
 		margin-left: 3em;
 }
 
-h1, h2, h3, h4, h5, h6 { color:#000000; }
+h2, h3, h4, h5, h6 { color:#000000; }
 
-nav{display: moz-inline-block;
+h1{margin-left: 2em;}
+
+nav{
+	margin: 0 auto;
+	margin-bottom: 40px;
+	line-height: 40px;
+	height: 40px;
+	display: moz-inline-block;
 	text-decoration: none;
+	list-style: none;
 	width:100%;
 	background: #e2e2e2; /* Old browsers */
 	background: -moz-linear-gradient(top,  #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 				100%); /* FF3.6+ */
@@ -41,7 +51,30 @@ nav{display: moz-inline-block;
 	box-shadow: 0 0 5px 5px #888;
 }
 
-p { 		
+ul {
+		width: 100%;
+  		display: -moz-inline-block;
+		text-decoration: none;
+  		list-style: none;
+  		margin: 0;
+  		padding: 0;
+}
+  		
+ul li{
+		width: 25%;
+		float: left;
+		display: -moz-inline-block;
+		text-decoration: none;
+}
+
+ul li a{
+		text-decoration: none;
+		text-align: center;
+		display: inline-block;
+		width: 100%;
+}
+
+p { 	
 		font-size: 1em;
 		font-family: arial, helvetic, sans-serif;
 }
@@ -49,5 +82,13 @@ p {
 footer p {
 		text-align: center;
 		font-family: Futura, sans-serif;
+		width: 100%;
+}
+
+footer {
+		position: absolute;
+		left: 0;
+		bottom: -290px;
+		height: 100 px;
 		width: 100%;
 }
