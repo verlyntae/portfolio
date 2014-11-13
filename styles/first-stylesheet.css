@@ -4,9 +4,10 @@
 
 header {        font-family: 'Rouge Script', cursive;
 		        width: 100%;
-		        font-size: 1.3em;
+		        font-size: 1.4em;
 		        margin-left: 2em;
 		        margin-bottom: 2em;
+		        padding-top: 30px;
 }
 
 body {	
@@ -48,17 +49,17 @@ h3 {            margin-left: 2em;
 		        font-size: 2.5em;
 		        text-align: center;
 		        padding-bottom: .3em;
-		        font-family: apple chancery, sans-serif;
+		        font-family: 'Rouge Script', cursive;
 		        color: #CB913F;        
 }
 
 h4 {
-		margin-left: 2em;
-		margin-right: 2em;
-		font-size: 2.5em;
-		text-align: center;
-		padding-bottom: .3em;
-		color: #000000;        
+		        margin-left: 2em;
+		        margin-right: 2em;
+		        font-size: 2.5em;
+		        text-align: center;
+		        padding-bottom: .3em;
+		        color: #000000;        
 }
 
 section{
