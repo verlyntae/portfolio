@@ -2,7 +2,7 @@
 	margin: 0 auto 0 auto;
 }
 
-header {
+header {font-family: 'Rouge Script', cursive;
 		width: 100%;
 		font-size: 1.3em;
 		margin-left: 2em;
