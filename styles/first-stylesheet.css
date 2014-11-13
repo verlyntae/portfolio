@@ -6,6 +6,7 @@ header {        font-family: 'Rouge Script', cursive;
 		        width: 100%;
 		        color: #CB913F;
 		        font-size: 1.4em;
+		        text-shadow: 2px 2px #000000;
 		        margin-left: 2em;
 		        margin-bottom: 2em;
 		        padding-top: 30px;
@@ -51,7 +52,8 @@ h3 {            margin-left: 2em;
 		        text-align: center;
 		        padding-bottom: .3em;
 		        font-family: 'Rouge Script', cursive;
-		        color: #CB913F;        
+		        color: #CB913F; 
+		        text-shadow: 2px 2px #000000;       
 }
 
 h4 {
